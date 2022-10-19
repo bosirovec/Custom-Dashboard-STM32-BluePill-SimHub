@@ -44,3 +44,10 @@ Next, go to **Tools>Board>Board Manager**, search for STM and install the board 
 #### 1.3. I2C Library
 Since I2C LCD is used, it's neccesarry to import I2C library for Blue Pill. The standard Arduino one will not work. 
 You can find the download link under [**Programming STM32 for I2C LCD Display**](https://www.electronicshub.org/interfacing-i2c-lcd-with-stm32f103c8t6/)  section
+
+#### 1.4. Upload Settings
+
+
+## 2. Connecting BluePill to SimHub as Custom Serial Device
+
+## 3. Code
