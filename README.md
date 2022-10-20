@@ -1,7 +1,10 @@
 # Welcome to Custom Dashboard project documentation
 
+
 In this text, I'll try to explain how I made my very own dashboard that works with various games.
 In a nutshell, all of the components are connected to an STM32 Blue Pill microcontroller which communicates with SimHub software.
+Base of the dashboard is a Fiat Bravo dashboard.
+[Video](https://www.youtube.com/watch?v=OHZ0x-ckDA0&ab_channel=BornaSirovec)
 
 All of the code is written in ArduinoIDE (I installed it separately, but you can also use the portable version that comes with SimHub.) In the first chapter, 
 I will explain how to prepare ArduinoIDE to program BluePill via ST-LINK V2 programmer. Then, I will explain how to connect programmed Blue Pill to with SimHub as 
