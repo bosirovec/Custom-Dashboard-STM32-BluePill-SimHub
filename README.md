@@ -12,23 +12,16 @@ Feel free to contact me if you stumble upon a problem.
 If you were to use Arduino - please skip to last part where I cover the code because you won't need the first two chapters. 
 
 #### Components:
-
-1 x STM32 Blue Pill microcontroller
-
-1 x ST-LINK V2 programmer (clone)
-
-1 x Protoboard
-
-1 x LCD screen with I2C adapter
-
-3 x TowerPro SG90 servo motor
-
-2 x LEDs
-
-USB Power adapter
-
-Wires
-
+<ul>
+<li>1 x STM32 Blue Pill microcontroller
+<li>1 x ST-LINK V2 programmer (clone)
+<li>1 x Protoboard
+<li>1 x LCD screen with I2C adapter
+<li>3 x TowerPro SG90 servo motor
+<li>2 x LEDs
+<li>USB Power adapter
+<li>Wires
+</ul>
 
 ## 1. Setting Up
 #### 1.1. Setting up Blue Pill
