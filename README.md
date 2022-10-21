@@ -60,9 +60,14 @@ Also, I enabled incoming data just for the purpose of debugging - I read the dat
 In custom formula, you choose the telemetry properties you want to extract from your game. Here is what my custom formula looks like:
 ![image](https://user-images.githubusercontent.com/49985928/196920998-f9a5c6d6-b097-4b2b-bb42-a7ef6da90d6d.png)
 
+#### 3. Wiring
+![stm32_pinout](https://user-images.githubusercontent.com/49985928/197260925-f7dd342e-4ebf-4c2b-aca3-9638e070be9d.png)
+![image](https://user-images.githubusercontent.com/49985928/197261255-42aaf7a9-6a73-4a34-8e95-5b1c3422f28d.png)
+![image](https://user-images.githubusercontent.com/49985928/197261309-ef0783f2-545a-4a05-a909-2bd9e2d22e34.png)
 
-## 3. Code
-#### 3.1. Calibration and mapping
+
+## 4. Code
+#### 4.1. Calibration and mapping
 Since servos weren't able to actually rotate 180˙, I had to calibrate them. For that purpose I wrote a script which helped me map Dashboard values(speed, rpms, fuel percentage) with to rotating degrees.
 ![kalibracija](https://user-images.githubusercontent.com/49985928/196921477-5f619077-1471-46f4-a335-a86a0dd9eff8.png)
 ![image](https://user-images.githubusercontent.com/49985928/196921584-99497472-143c-42b3-8ff3-64414562d110.png)
@@ -70,7 +75,7 @@ Since servos weren't able to actually rotate 180˙, I had to calibrate them. For
 All those mapped values are stored in ``degArray``, ``speedArray``, ``rpmArray``, ``fuelArray`` and ``fuelDegArray``.
 
 
-#### 3.2. Logic
+#### 4.2. Logic
 **The rest of the code is documented and explained in the comments **
 
 
